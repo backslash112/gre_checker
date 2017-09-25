@@ -38,7 +38,7 @@ def run():
 		time.sleep(30)
 
 def play():
-    mp3='sound.mp3'
+    mp3='file/sound.mp3'
     return_code = subprocess.call(["afplay",mp3])
 
 def open_website():
