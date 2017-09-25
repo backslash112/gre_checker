@@ -1,4 +1,4 @@
-# JRE Test Checker
+# GRE Test Checker
 
 pip install -r requirements.txt
 
