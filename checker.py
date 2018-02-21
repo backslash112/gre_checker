@@ -8,7 +8,7 @@ import webbrowser
 
 def refresh():
     opener = urllib2.build_opener()
-    opener.addheaders.append(('Cookie', 'BIGipServerhw_gre_pool=336250890.22784.0000; JSESSIONID=4DC43F54AC72D64C08E733320799CAD5; step=myStatus.do; ajaxStep=viewAppointment; arp_scroll_position=402'))
+    opener.addheaders.append(('Cookie', '<...>; JSESSIONID=<...>; step=myStatus.do; ajaxStep=viewAppointment; arp_scroll_position=402'))
     url = "https://gre.etest.net.cn/testSites.do?p=testSites&m=ajax&adminDate=2017-10-13&neeaID=71434856&cities=BEIJING_BEIJING%3BHEBEI_SHIJIAZHUANG%3B&citiesNames=%25E5%258C%2597%25E4%25BA%25AC%3B%25E7%259F%25B3%25E5%25AE%25B6%25E5%25BA%2584%3B&whichFirst=AS&isFilter=1&opt=reschedule"
     f = opener.open(url)
     res = f.read()
